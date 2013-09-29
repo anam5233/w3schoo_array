@@ -1,4 +1,21 @@
+<?php
+####Indexed Array ########
+
+	$a=array("slashes","bin2hex","chop","chr","count_chars","chunk_split");
+	$a[6]="jamil";
+	$a[7]="Hasu_vai";
+	$a[8]="Hasin_boss";
+	$b=count($a);
+	echo $b."<br>";
+	for($c=0;$c<$b; $c++) {
+		echo $a[$c];
+		echo " , ";
+	}
+	
+?>
+<hr>
 <?php 
+	#### Associative Array ##########
 	$age=array("sihab"=>"26","lima"=>"24","Momin"=>"28","sumi"=>"25","Rasel"=>"27");
 	
 	echo "sihab is--". $age['sihab']."--years old....<br>";
