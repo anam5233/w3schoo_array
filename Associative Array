@@ -1,0 +1,9 @@
+<?php 
+	$age=array("sihab"=>"26","lima"=>"24","Momin"=>"28","sumi"=>"25","Rasel"=>"27");
+	
+	echo "sihab is--". $age['sihab']."--years old....<br>";
+	foreach($age as $m=>$m_value){
+		echo "Name=".$m." and age is =".$m_value."<br>";
+
+	}
+?>
